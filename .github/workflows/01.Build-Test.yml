@@ -2,7 +2,7 @@ name: 'My Job will help to Planning for display Message'
 on: [push]
 jobs:
   Job-Message-Actions:
-    runs-on: ubuntu-latest
+    runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
